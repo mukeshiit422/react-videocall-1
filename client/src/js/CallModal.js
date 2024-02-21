@@ -32,7 +32,7 @@ class CallModal extends Component {
 }
 
 CallModal.propTypes = {
-  status: PropTypes.string.isRequired,
+  status:  PropTypes.string.isRequired,
   callFrom: PropTypes.string.isRequired,
   startCall: PropTypes.func.isRequired,
   rejectCall: PropTypes.func.isRequired
